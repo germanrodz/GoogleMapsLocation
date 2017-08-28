@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.blovvme.googlemapslocation.MainActivity">
+
+
+    <Button
+        android:layout_weight="1"
+        android:onClick="onLocation"
+        android:id="@+id/btnLocation"
+        android:text="Push for Location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_weight="1"
+        android:hint="latitude"
+        android:id="@+id/tvLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_weight="1"
+        android:hint="longitude"
+        android:id="@+id/tvLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_weight="1"
+        android:onClick="onPassToOtherActivity"
+        android:id="@+id/btnSendLocation"
+        android:text="Pass Location to Second Activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_weight="1"
+        android:onClick="onGeolocation"
+        android:text="Geolocation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
